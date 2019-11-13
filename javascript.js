@@ -17,6 +17,13 @@ function alertFunction() {
 let btn3 = document.querySelector('#btn3');
 btn3.addEventListener ('click', alertFunction);
 
+//Event listener target details passed with function
+let btn4 = document.querySelector('#btn4');
+btn4.addEventListener ('click', function(e){
+    console.log(e.target)
+    e.target.style.background = 'blue';
+});
+
 const content = document.createElement('div');
 content.classList.add('content');
 content.textContent = "This is the glorious text-content!"
