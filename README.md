@@ -1,0 +1,1 @@
+Catch all for ramdom exercises throughout Odin Project
